@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="شعار نادي الاتحاد">
+  <circle cx="60" cy="60" r="55" stroke="#C7A45D" stroke-width="2"/>
+  <circle cx="60" cy="60" r="48" stroke="#C7A45D" stroke-opacity=".35" stroke-width="1"/>
+  <path d="M60 30 84 60 60 90 36 60 60 30Z" stroke="#C7A45D" stroke-width="2"/>
+  <path d="M60 42 73 60 60 78 47 60 60 42Z" fill="#C7A45D" fill-opacity=".12" stroke="#C7A45D" stroke-width="1.2"/>
+  <path d="M52 52h16M52 60h16M52 68h16" stroke="#C7A45D" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="60" cy="12" r="2.4" fill="#C7A45D"/>
+  <circle cx="60" cy="108" r="2.4" fill="#C7A45D"/>
+  <circle cx="12" cy="60" r="2.4" fill="#C7A45D"/>
+  <circle cx="108" cy="60" r="2.4" fill="#C7A45D"/>
+</svg>

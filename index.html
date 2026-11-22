@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="نادي الاتحاد — متجر أزياء في جدة. تشكيلة من القطع الواسعة والخامات المريحة بتفاصيل ذهبية هادئة.">
+  <meta name="theme-color" content="#0b0b0c">
+  <title>نادي الاتحاد | ابرز اللحظاة</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="نادي الاتحاد — الصفحة الرئيسية">
+        <img class="brand__mark" src="assets/logo.svg" alt="" width="44" height="44">
+        <span class="brand__text">
+          <span class="brand__name">نادي الاتحاد</span>
+          <span class="brand__sub">Jeddah · Est. 2023</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="القائمة الرئيسية">
+        <a href="index.html" aria-current="page">الرئيسية</a>
+        <a href="products.html">البطولات</a>
+        <a href="about.html">عنّا</a>
+        <a href="contact.html">تواصل</a>
+      </nav>
+
+      <a class="header-action" href="products.html">
+        تصفح التشكيلة
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-controls="main-nav" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== 1. Welcome + new collection ========== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">جدة · الشعارات الجديدة</p>
+          <h1 class="hero__title" id="hero-title">
+            هدوء في القَصّة،
+            <em>حضور في التفصيل.</em>
+          </h1>
+          <p class="hero__desc">
+           ابرز الطولات الاسيوية فصخب مدينة جدة و صوتها.
+           يوم مميز وليلة من ليالي جدةالهادئة.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="products.html">
+              تصفح التشكيلة
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="about.html">تعرّف على المتجر</a>
+          </div>
+          <p class="hero__note">متوفرة الآن في جدة · توصيل داخل المدينة</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Collection showcase ========== -->
+    <section class="section" aria-labelledby="collection-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">وصلت حديثاً</p>
+            <h2 class="section-title" id="collection-title">التشكيلة <span>الجديدة</span></h2>
+            <p class="section-lead">ثلاث قطع افتتحت بها الموسم: قَصّات واسعة، خامات خفيفة، وألوان قريبة من الأرض.</p>
+          </div>
+          <a class="text-link" href="products.html">
+            عرض كل القطع
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="collection-grid">
+          <article class="look-card reveal">
+            <span class="look-card__tag">الأكثر طلباً</span>
+            <img src="assets/collection-hero.jpg" alt="صورة من التشكيلة الجديدة لنادي الاتحاد" loading="lazy">
+            <div class="look-card__body">
+              <div class="look-card__line"></div>
+              <h3 class="look-card__title">المعطف الواسع</h3>
+              <p class="look-card__meta">قَصّة مستقيمة · كتان داكن</p>
+            </div>
+          </article>
+
+          <article class="look-card reveal">
+            <span class="look-card__tag">جديد</span>
+            <img src="assets/collection-wide.jpg" alt="قطعة ملابس من تشكيلة نادي الاتحاد" loading="lazy">
+            <div class="look-card__body">
+              <div class="look-card__line"></div>
+              <h3 class="look-card__title">القميص الفضفاض</h3>
+              <p class="look-card__meta">قطن مهكوج · خياطة ذهبية دقيقة</p>
+            </div>
+          </article>
+
+          <article class="look-card reveal">
+            <span class="look-card__tag">من التشكيلة</span>
+            <img src="assets/collection-detail.jpg" alt="تفاصيل من تشكيلة نادي الاتحاد" loading="lazy">
+            <div class="look-card__body">
+              <div class="look-card__line"></div>
+              <h3 class="look-card__title">الطقم اليومي</h3>
+              <p class="look-card__meta">قطعتان · مريح للتنقل</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Brand logo + product imagery ========== -->
+    <section class="section section--tint" aria-labelledby="brand-title">
+      <div class="container">
+        <div class="brand-band reveal">
+          <div>
+            <img class="brand-band__mark" src="assets/logo.svg" alt="شعار نادي الاتحاد" loading="lazy">
+            <h3 id="brand-title">نادي الاتحاد</h3>
+            <p>دائرة واحدة تجمع الخطوط حول مساحة تكفي للحركة. لا نضيف شعاراً فوق القطعة؛ نجعل القَصّة نفسها هي العلامة، ثم نترك للذهب أن يظهر في مكانه الضيق.</p>
+            <a class="text-link" href="about.html" style="margin-block-start:1.25rem">
+              حكاية المتجر
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <div class="brand-band__gallery">
+            <figure><img src="assets/collection-detail.jpg" alt="تفاصيل خامة أحد المنتجات" loading="lazy"></figure>
+            <figure><img src="assets/collection-wide.jpg" alt="منتج من تشكيلة المتجر" loading="lazy"></figure>
+            <figure><img src="assets/collection-hero.jpg" alt="صورة للتشكيلة الجديدة" loading="lazy"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 2. Three features ========== -->
+    <section class="section" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">ما يميز القطع</p>
+            <h2 class="section-title" id="features-title">تفاصيل <span>تُلبس</span></h2>
+            <p class="section-lead">لا نكتب كثيراً عن الموضة. نهتم بما تشعر به القطعة حين ترتديها، وبما يبقى منها بعد غسلها مرات.</p>
+          </div>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature reveal">
+            <span class="feature__no" aria-hidden="true">01</span>
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3 4 5l-1 4 3 1v11h12V10l3-1-1-4-4-2-4 2-4-2Z"/></svg>
+            </div>
+            <h3>قَصّة تمنحك مساحة</h3>
+            <p>الكتف مريح، والخطوط نازلة بلا تقييد. القطعة تتبع حركتك بدل أن تسبقها، وتصلح للجلوس الطويل كما للخروج.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__no" aria-hidden="true">02</span>
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4C9 4 4 9 4 16c0 2 .5 3.5.5 3.5S9 20 14 20c7 0 8-9 6-16Z"/><path d="M4 20c3-5 7-8 12-10"/></svg>
+            </div>
+            <h3>خامات تُلبس طويلاً</h3>
+            <p>قطن متماسك وكتان خفيف نختاره قبل الشكل. الإحساس يبقى أطول من صورة الموضة، لذلك نختبر الخامة باللبس لا بالعين.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__no" aria-hidden="true">03</span>
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.1 6.9L21 12l-6.9 2.1L12 21l-2.1-6.9L3 12l6.9-2.1L12 3Z"/><path d="M19 3v3M17.5 4.5h3"/></svg>
+            </div>
+            <h3>ذهب بقدر الحاجة</h3>
+            <p>خياطة دقيقة بلون الذهب، بلا لمعان مبالغ. التفصيل يُقرأ من القرب فقط — وهذا بالضبط ما نريده له أن يبقى.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 3. Customer reviews ========== -->
+    <section class="section section--tint" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">آراء العملاء</p>
+            <h2 class="section-title" id="reviews-title">قالوا <span>بصراحة</span></h2>
+            <p class="section-lead">كلمات وصلتنا من عملاء في جدة بعد تجربة القطع، ننقلها كما هي.</p>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review reveal">
+            <div class="review__stars" aria-label="خمسة نجوم">★★★★★</div>
+            <blockquote>«القماش أخف مما توقعت، والقَصّة واسعة بدون ما تبدو مبالغ فيها. لبست المعطف أكثر من مرة في نفس الأسبوع.»</blockquote>
+            <div class="review__author">
+              <span class="review__avatar" aria-hidden="true">س</span>
+              <div><strong>سارة العتيبي</strong><span>جدة · السعودية</span></div>
+            </div>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars" aria-label="خمسة نجوم">★★★★★</div>
+            <blockquote>«التفصيل الذهبي ظريف، ما يلفت النظر بس يبان عن قرب. المقاسات واضحة والطلب وصلني بسرعة.»</blockquote>
+            <div class="review__author">
+              <span class="review__avatar" aria-hidden="true">خ</span>
+              <div><strong>خالد الحربي</strong><span>جدة · السعودية</span></div>
+            </div>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars" aria-label="خمسة نجوم">★★★★★</div>
+            <blockquote>«أحب إن القطع تصلح للجامعة وللخروج المسائي بدون تغيير. هذا بالضبط اللي كنت أبغاه.»</blockquote>
+            <div class="review__author">
+              <span class="review__avatar" aria-hidden="true">ل</span>
+              <div><strong>لمى الشمري</strong><span>جدة · السعودية</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Closing ========== -->
+    <section class="cta" aria-label="ابدأ التسوق">
+      <div class="container">
+        <h2>قطعة واحدة تبدأ منها التشكيلة</h2>
+        <p>تصفّح القطع المتوفرة الآن، أو كلّمنا مباشرة على واتساب للمقاسات والألوان.</p>
+        <a class="btn btn--gold" href="products.html">تصفح المنتجات</a>
+        <a class="btn btn--ghost" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أود الاستفسار عن المقاسات والألوان المتوفرة.">راسلنا على واتساب</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a class="brand" href="index.html" aria-label="نادي الاتحاد — الرئيسية">
+            <img class="brand__mark" src="assets/logo.svg" alt="" width="44" height="44">
+            <span class="brand__text">
+              <span class="brand__name">نادي الاتحاد</span>
+              <span class="brand__sub">Jeddah</span>
+            </span>
+          </a>
+          <p>قطع واسعة وخامات تتنفس، بتفاصيل ذهبية هادئة. صُنعت في جدة لتُلبس كل يوم.</p>
+        </div>
+        <div class="footer-col">
+          <h4>استكشف</h4>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="about.html">عنّا</a></li>
+            <li><a href="contact.html">تواصل</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>المتجر</h4>
+          <p>جدة، المملكة العربية السعودية<br>السبت – الخميس · ١٠ صباحاً – ١٠ مساءً</p>
+        </div>
+        <div class="footer-col">
+          <h4>تابعنا</h4>
+          <p>للموديلات الجديدة وتوافر المقاسات.</p>
+          <div class="socials">
+            <a href="#" aria-label="إنستغرام"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" aria-label="سناب شات"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3c4 0 6 3 6 7 0 2 .5 3 1.5 3.5.8.4.5 1.5-.5 1.5h-2c-.3 1-1 1.5-2 1.5-.7 0-1.2-.4-2-.4s-1.3.4-2 .4c-1 0-1.7-.5-2-1.5h-2c-1 0-1.3-1.1-.5-1.5C6.5 13 7 12 7 10c0-4 1-7 5-7Z"/><path d="M10 18h4"/></svg></a>
+            <a href="#" aria-label="إكس"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.9-6.4L6.2 22H3l7.3-8.4L2.5 2h6.3l4.4 5.8L18.9 2Zm-1.1 18h1.7L7.4 3.9H5.6L17.8 20Z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> نادي الاتحاد. جميع الحقوق محفوظة.</span>
+        <span>صُنع بعناية في جدة</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== Fixed WhatsApp ========== -->
+  <a class="whatsapp-fab" href="https://wa.me/966500000000" data-wa data-wa-text="مرحباً نادي الاتحاد، أود معرفة المزيد عن التشكيلة المتوفرة." aria-label="تواصل معنا عبر واتساب">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.03a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.36c0-4.53 3.69-8.22 8.23-8.22 2.2 0 4.27.86 5.82 2.41a8.18 8.18 0 0 1 2.41 5.82c0 4.53-3.69 8.21-8.23 8.21Zm4.51-6.16c-.25-.13-1.46-.72-1.69-.8-.23-.08-.4-.13-.57.13-.17.25-.65.8-.8.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.61-1.24-1.36-1.39-1.59-.15-.23-.02-.36.11-.48.11-.11.25-.29.37-.44.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.57-1.37-.78-1.88-.2-.5-.41-.43-.57-.44h-.49c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.12.17 1.78 2.72 4.32 3.81 2.54 1.09 2.54.73 3 .68.46-.05 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3Z"/></svg>
+    <span>واتساب</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

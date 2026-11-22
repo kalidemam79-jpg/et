@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="تصفّح تشكيلة نادي الاتحاد في جدة: قطع واسعة، ملابس يومية، وتفاصيل ذهبية هادئة. اطلب مباشرة عبر واتساب.">
+  <meta name="theme-color" content="#0b0b0c">
+  <title>المنتجات | نادي الاتحاد</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="نادي الاتحاد — الصفحة الرئيسية">
+        <img class="brand__mark" src="assets/logo.svg" alt="" width="44" height="44">
+        <span class="brand__text">
+          <span class="brand__name">نادي الاتحاد</span>
+          <span class="brand__sub">Jeddah · Est. 2023</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="القائمة الرئيسية">
+        <a href="index.html">الرئيسية</a>
+        <a href="products.html" aria-current="page">المنتجات</a>
+        <a href="about.html">عنّا</a>
+        <a href="contact.html">تواصل</a>
+      </nav>
+
+      <a class="header-action" href="contact.html">
+        اطلب عبر واتساب
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-controls="main-nav" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== Page header ========== -->
+    <section class="page-head" data-label="القطع" aria-labelledby="page-title">
+      <div class="container page-head__inner">
+        <p class="eyebrow">التشكيلة الحالية · ٦ قطع</p>
+        <h1 id="page-title">القطع <span>المتوفرة</span></h1>
+        <p>اختر ما يناسب يومك. كل قطعة موصوفة بما تفعله فعلاً: كيف تسقط على الجسم، ومن أي خامة صُنعت، وأين تظهر اللمسة الذهبية.</p>
+      </div>
+    </section>
+
+    <!-- ========== Products ========== -->
+    <section class="section" aria-label="قائمة المنتجات">
+      <div class="container">
+        <div class="filter-bar" role="group" aria-label="تصفية المنتجات">
+          <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">الكل</button>
+          <button class="filter-chip" type="button" data-filter="oversized" aria-pressed="false">قَصّات واسعة</button>
+          <button class="filter-chip" type="button" data-filter="daily" aria-pressed="false">يومية</button>
+          <button class="filter-chip" type="button" data-filter="refined" aria-pressed="false">لمسة ذهبية</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal" data-category="oversized">
+            <div class="product-card__media">
+              <span class="product-card__badge">الأكثر طلباً</span>
+              <img src="assets/collection-hero.jpg" alt="المعطف الواسع من تشكيلة نادي الاتحاد" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__cat">قَصّة واسعة</span>
+              <h3>المعطف الواسع</h3>
+              <p>قَصّة مستقيمة وكتف منخفض، وفتحة أمامية تترك مساحة للطبقات تحتها.</p>
+              <div class="product-card__foot">
+                <span class="product-card__price">٤٩٠ <small>ر.س</small></span>
+                <a class="product-card__order" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أود طلب المعطف الواسع (٤٩٠ ر.س). هل هو متوفر؟">
+                  اطلب الآن
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="oversized">
+            <div class="product-card__media">
+              <span class="product-card__badge">جديد</span>
+              <img src="assets/collection-wide.jpg" alt="القميص الفضفاض من تشكيلة نادي الاتحاد" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__cat">قَصّة واسعة</span>
+              <h3>القميص الفضفاض</h3>
+              <p>قطن مهكوج بوزن متوسط، يبقى شكله بعد الغسل ويتنفس في الحرارة.</p>
+              <div class="product-card__foot">
+                <span class="product-card__price">٢٤٥ <small>ر.س</small></span>
+                <a class="product-card__order" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أود طلب القميص الفضفاض (٢٤٥ ر.س). هل هو متوفر؟">
+                  اطلب الآن
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="daily">
+            <div class="product-card__media">
+              <img src="assets/collection-detail.jpg" alt="الطقم اليومي من تشكيلة نادي الاتحاد" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__cat">يومي</span>
+              <h3>الطقم اليومي</h3>
+              <p>قطعتان بتفصيل واحد: هدوء في الألوان، وراحة تكفي ليوم كامل.</p>
+              <div class="product-card__foot">
+                <span class="product-card__price">٣٨٠ <small>ر.س</small></span>
+                <a class="product-card__order" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أود طلب الطقم اليومي (٣٨٠ ر.س). هل هو متوفر؟">
+                  اطلب الآن
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="daily">
+            <div class="product-card__media">
+              <img src="assets/collection-wide.jpg" alt="التريكو الخفيف من تشكيلة نادي الاتحاد" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__cat">يومي</span>
+              <h3>التريكو الخفيف</h3>
+              <p>فتائل ناعمة على الجلد، مناسب لأمسية جدة الهادئة وللسفر.</p>
+              <div class="product-card__foot">
+                <span class="product-card__price">٢٩٠ <small>ر.س</small></span>
+                <a class="product-card__order" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أود طلب التريكو الخفيف (٢٩٠ ر.س). هل هو متوفر؟">
+                  اطلب الآن
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="oversized">
+            <div class="product-card__media">
+              <img src="assets/collection-hero.jpg" alt="البنطال الواسع من تشكيلة نادي الاتحاد" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__cat">قَصّة واسعة</span>
+              <h3>البنطال الواسع</h3>
+              <p>خصر مريح وساق مستقيمة؛ يقف مع القميص الفضفاض أو مع تيشيرت بسيط.</p>
+              <div class="product-card__foot">
+                <span class="product-card__price">٢٦٠ <small>ر.س</small></span>
+                <a class="product-card__order" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أود طلب البنطال الواسع (٢٦٠ ر.س). هل هو متوفر؟">
+                  اطلب الآن
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="refined">
+            <div class="product-card__media">
+              <span class="product-card__badge">إصدار محدود</span>
+              <img src="assets/collection-detail.jpg" alt="السترة المطرزة من تشكيلة نادي الاتحاد" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__cat">لمسة ذهبية</span>
+              <h3>السترة المطرزة</h3>
+              <p>خط ذهبي واحد على الكتف، بلا زخرفة زائدة. تُلبس فوق القطع الهادئة.</p>
+              <div class="product-card__foot">
+                <span class="product-card__price">٥٢٠ <small>ر.س</small></span>
+                <a class="product-card__order" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أود طلب السترة المطرزة (٥٢٠ ر.س). هل هي متوفرة؟">
+                  اطلب الآن
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="products-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+          <span>المقاسات والألوان تختلف بالتوفر. أكّد طلبك معنا عبر واتساب قبل الدفع — لا يوجد تسجيل دخول ولا حفظ لبياناتك.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Closing ========== -->
+    <section class="cta" aria-label="تحتاج مساعدة في الاختيار">
+      <div class="container">
+        <h2>غير متأكد من المقاس؟</h2>
+        <p>أرسل لنا مقاسك وطريقة لبسك المفضلة، ونقترح عليك القطعة المناسبة قبل أن تطلب.</p>
+        <a class="btn btn--gold" href="contact.html">صفحة التواصل</a>
+        <a class="btn btn--ghost" href="#" data-wa data-wa-text="مرحباً نادي الاتحاد، أحتاج مساعدة في اختيار المقاس.">اسألنا على واتساب</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a class="brand" href="index.html" aria-label="نادي الاتحاد — الرئيسية">
+            <img class="brand__mark" src="assets/logo.svg" alt="" width="44" height="44">
+            <span class="brand__text">
+              <span class="brand__name">نادي الاتحاد</span>
+              <span class="brand__sub">Jeddah</span>
+            </span>
+          </a>
+          <p>قطع واسعة وخامات تتنفس، بتفاصيل ذهبية هادئة. صُنعت في جدة لتُلبس كل يوم.</p>
+        </div>
+        <div class="footer-col">
+          <h4>استكشف</h4>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="about.html">عنّا</a></li>
+            <li><a href="contact.html">تواصل</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>المتجر</h4>
+          <p>جدة، المملكة العربية السعودية<br>السبت – الخميس · ١٠ صباحاً – ١٠ مساءً</p>
+        </div>
+        <div class="footer-col">
+          <h4>تابعنا</h4>
+          <p>للموديلات الجديدة وتوافر المقاسات.</p>
+          <div class="socials">
+            <a href="#" aria-label="إنستغرام"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" aria-label="سناب شات"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3c4 0 6 3 6 7 0 2 .5 3 1.5 3.5.8.4.5 1.5-.5 1.5h-2c-.3 1-1 1.5-2 1.5-.7 0-1.2-.4-2-.4s-1.3.4-2 .4c-1 0-1.7-.5-2-1.5h-2c-1 0-1.3-1.1-.5-1.5C6.5 13 7 12 7 10c0-4 1-7 5-7Z"/><path d="M10 18h4"/></svg></a>
+            <a href="#" aria-label="إكس"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.9-6.4L6.2 22H3l7.3-8.4L2.5 2h6.3l4.4 5.8L18.9 2Zm-1.1 18h1.7L7.4 3.9H5.6L17.8 20Z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> نادي الاتحاد. جميع الحقوق محفوظة.</span>
+        <span>صُنع بعناية في جدة</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== Fixed WhatsApp ========== -->
+  <a class="whatsapp-fab" href="https://wa.me/966500000000" data-wa data-wa-text="مرحباً نادي الاتحاد، أود الاستفسار عن التشكيلة المتوفرة." aria-label="تواصل معنا عبر واتساب">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.03a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.36c0-4.53 3.69-8.22 8.23-8.22 2.2 0 4.27.86 5.82 2.41a8.18 8.18 0 0 1 2.41 5.82c0 4.53-3.69 8.21-8.23 8.21Zm4.51-6.16c-.25-.13-1.46-.72-1.69-.8-.23-.08-.4-.13-.57.13-.17.25-.65.8-.8.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.61-1.24-1.36-1.39-1.59-.15-.23-.02-.36.11-.48.11-.11.25-.29.37-.44.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.57-1.37-.78-1.88-.2-.5-.41-.43-.57-.44h-.49c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.12.17 1.78 2.72 4.32 3.81 2.54 1.09 2.54.73 3 .68.46-.05 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3Z"/></svg>
+    <span>واتساب</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
